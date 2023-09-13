@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Roboto:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .xl-title{
+        @apply text-[48px] text-primary-blue font-roboto font-semibold
+    }
+
+    .xl-title-white{
+        @apply text-[48px] text-white font-roboto font-semibold
+    }
+    
+    .lg-title{
+        @apply text-[36px] text-primary-blue font-roboto font-semibold
+    }
+
+    .lg-title-white{
+        @apply text-[36px] text-white font-roboto font-semibold
+    }
+
+    .md-title{
+        @apply text-[32px] text-primary-blue font-roboto font-semibold
+    }
+
+    .md-p{
+        @apply text-[25px] text-primary-blue font-roboto font-semibold
+    }
+    .md-p-white{
+        @apply text-[25px] text-white font-roboto font-semibold
+    }
+
+    .sm-p{
+        @apply text-[24px] text-primary-blue font-roboto
+    }
+
+    .blue-btn{
+        @apply text-[32px] bg-primary-blue text-white font-semibold w-[225px] h-[80px] rounded-xl hover:bg-salmon hover:text-white
+    }
+
+    .white-btn{
+        @apply text-[24px] bg-white text-primary-blue font-semibold w-[170px] h-[65px] rounded-lg hover:bg-salmon hover:text-white
+    
+    }
+
+    .grey-bg{
+        @apply bg-gray-600/50 absolute bottom-0 w-[100%]
+    }
+
+    .pic-n-txt{
+        @apply w-[395px] h-[275px] relative
+    }
+
+    .course-card-home{
+        @apply flex flex-col justify-evenly items-center space-y-8
+    }
+}
