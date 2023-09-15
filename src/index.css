@@ -46,6 +46,10 @@
     
     }
 
+    .img-dim{
+        @apply w-[100%] h-[100%]
+    }
+
     .grey-bg{
         @apply bg-gray-600/50 absolute bottom-0 w-[100%]
     }
@@ -54,7 +58,15 @@
         @apply w-[395px] h-[275px] relative
     }
 
+    .lg-pic-n-txt{
+        @apply w-[450px] h-[315px] relative 
+    }
+
     .course-card-home{
         @apply flex flex-col justify-evenly items-center space-y-8
+    }
+
+    .lg-course-card{
+        @apply  bg-auto bg-no-repeat w-[960px] h-[250px] flex flex-col justify-center items-center space-y-4
     }
 }

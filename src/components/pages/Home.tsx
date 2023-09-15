@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
+
 import cover from "../../assets/home/cover.png"
 
 import scuba1 from "../../assets/home/scuba1.png"
@@ -35,40 +37,48 @@ const Home = () => {
           <button className='blue-btn'>Túráink</button>
         </div>
         <div>
-          <div className='flex w-[50vw] flex-wrap flex-row justify-center'>
+          <div className='flex w-[50vw] flex-wrap flex-row justify-center gap-10'>
+          <Link to="/">
             <div className='pic-n-txt '>
-              <img src={scuba1} alt="scuba1" />
+              <img className="img-dim" src={scuba1} alt="scuba1" />
               <div className='grey-bg'>
                 <p className='md-p-white'>Horvátország, Murter<br />
                     Május 24-28</p>
               </div>
             </div>
+          </Link>
+          <Link to="/">
             <div className='pic-n-txt '>
-              <img src={scuba2} alt="scuba2" />
+              <img className="img-dim" src={scuba2} alt="scuba2" />
               <div className='grey-bg'>
                 <p className='md-p-white'>Egyiptom, Dahab<br />
                     Június 21-29</p>
               </div>
             </div>
+          </Link>
+          <Link to="/">
             <div className='pic-n-txt '>
-              <img src={scuba3} alt="scuba3" />
+              <img className="img-dim" src={scuba3} alt="scuba3" />
               <div className='grey-bg'>
                 <p className='md-p-white'>Horvátország Cavtat<br />
                     Július 28-Augusztus 4</p>
               </div>
             </div>
+            </Link>
+            <Link to="/">
             <div className='pic-n-txt '>
-              <img src={scuba4} alt="scuba4" />
+              <img className="img-dim" src={scuba4} alt="scuba4" />
               <div className='grey-bg'>
                 <p className='md-p-white'>Egyiptom, St. Johgns szigetek<br />
                     November 18-25</p>
               </div>
             </div>
+            </Link>
           </div>
         </div>
       </div>
       <div>
-        <h1 className='xl-title mb-4'>
+        <h1 className='xl-title mb-4 mt-20'>
           Tanfolyamok
         </h1>
         <p className='font-robot text-primary-blue text-[40px] mb-20'>
@@ -95,7 +105,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className='flex flex-col items-center space-y-10 mb-20'>
+      <div className='flex flex-col items-center space-y-10 mb-20 mt-20'>
         <h1 className='xl-title'>Központunk</h1>
         <div className=' flex space-x-7'>
           <img src={dive_flag} alt="dive_flag" />
