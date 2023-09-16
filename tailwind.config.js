@@ -22,6 +22,7 @@ export default {
       },
       colors: {
         'primary-blue': '#0F3D66',
+        'light-blue': '#ADD5F1',
         'salmon': '#EF7F6A'
       }  
     },

@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav>
       <div className='flex justify-center items-center my-5'>
-        <img src={Logo} alt="logo" className='h-20 w-20'/>
+        <Link to="/"><img src={Logo} alt="logo" className='h-20 w-20'/></Link>
         <h1 className='text-[36px] text-primary-blue font-roboto font-semibold'>
           <Link to="/">Farkas Koppány Búváriskola és Szabadidő Sportklub</Link>
         </h1>
