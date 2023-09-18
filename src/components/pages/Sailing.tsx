@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import sailing1 from "../../assets/sailing/s1.png"
 import sailing2 from "../../assets/sailing/s2.png"

@@ -1,4 +1,3 @@
-import React from 'react'
 
 import facebookLogo from "../../assets/navbar/facebook_logo.png"
 
@@ -19,7 +18,7 @@ const ContactUs = () => {
         </div>
       </div>
       <div className='flex justify-center mt-20'>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.139949248465!2d19.013279776930073!3d47.46770219755802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ddc3254ce70b%3A0x541dd390114c999b!2sBudapest%2C%20Bakony%20u.%2020%2C%201118!5e0!3m2!1shu!2shu!4v1694529844047!5m2!1shu!2shu" width="600" height="450" className="border-2 rounded-xl border-primary-blue" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.139949248465!2d19.013279776930073!3d47.46770219755802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741ddc3254ce70b%3A0x541dd390114c999b!2sBudapest%2C%20Bakony%20u.%2020%2C%201118!5e0!3m2!1shu!2shu!4v1694529844047!5m2!1shu!2shu" width="600" height="450" className="border-2 rounded-xl border-primary-blue"  loading="lazy" ></iframe>
       </div>
     </div>
   )
