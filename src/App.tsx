@@ -12,6 +12,8 @@ import Gallery from "./components/pages/Gallery";
 import ContactUs from "./components/pages/ContactUs";
 import OtherPrograms from "./components/pages/OtherPrograms";
 
+const {BASE_URL} = import.meta.env;
+
 function App() {
   
 
@@ -19,7 +21,7 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path={BASE_URL} element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="courses" element={<Courses />} />
           <Route path="programs" element={<Programs />} />
