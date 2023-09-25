@@ -14,6 +14,8 @@ import scuba7 from "../../assets/home/scuba7.png"
 
 import dive_flag from "../../assets/home/dive_flag.png"
 
+const {BASE_URL} = import.meta.env;
+
 const Home = () => {
   return (
     <div>
@@ -37,7 +39,7 @@ const Home = () => {
         </div>
         <div>
           <div className='flex w-[50vw] flex-wrap flex-row justify-center gap-10'>
-          <Link to="/">
+          <Link to={BASE_URL}>
             <div className='pic-n-txt '>
               <img className="img-dim" src={scuba1} alt="scuba1" />
               <div className='grey-bg'>
@@ -46,7 +48,7 @@ const Home = () => {
               </div>
             </div>
           </Link>
-          <Link to="/">
+          <Link to={BASE_URL}>
             <div className='pic-n-txt '>
               <img className="img-dim" src={scuba2} alt="scuba2" />
               <div className='grey-bg'>
@@ -55,7 +57,7 @@ const Home = () => {
               </div>
             </div>
           </Link>
-          <Link to="/">
+          <Link to={BASE_URL}>
             <div className='pic-n-txt '>
               <img className="img-dim" src={scuba3} alt="scuba3" />
               <div className='grey-bg'>
@@ -64,7 +66,7 @@ const Home = () => {
               </div>
             </div>
             </Link>
-            <Link to="/">
+            <Link to={BASE_URL}>
             <div className='pic-n-txt '>
               <img className="img-dim" src={scuba4} alt="scuba4" />
               <div className='grey-bg'>
